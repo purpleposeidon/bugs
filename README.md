@@ -1,15 +1,19 @@
 # Assumptions Where Bugs Hide
-0. The input data is correct.
-0. The following behavior is correct.
-0. The component is correct.
-0. The program you are debugging is the one you are editing.
-0. You are actually changing the input.
-0. There is exactly 1 input.
-0. There is no input.
-0. All expected inputs are being received.
-0. The function does what its name implies.
-0. The function does what its documentation implies.
-0. "xyz" is not "xyy" is not "xzy" is not "xxx" is not "zyx".
-0. The output is going somewhere.
-0. The object is constant.
-0. The object is not constant. (eg, you're not doing `thing.add(whatever)` & ignoring the result.)
+### The input data is correct.
+### The following behavior is correct.
+### The component is correct.
+### You are reading all of the code.
+### The program you are debugging is the one you are editing.
+### You are actually changing the input.
+### There is exactly 1 input.
+### There is no input.
+### Your debugger is debugging with the input that you think it is.
+### All expected inputs are being received.
+### The function name is not lies.
+### The function documentation is not lies.
+### The library function is not broken.
+### "xyz" is not "xyy" is not "xzy" is not "xxx" is not "zyx".
+### The output is going somewhere.
+### The object is constant.
+### The object is mutable. (eg, you're not doing `thing.add(whatever)` & ignoring the result.)
+### The repository is in an atomic state. (There are no uncommited changes interfering with expectations.)
