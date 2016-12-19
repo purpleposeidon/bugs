@@ -36,3 +36,4 @@ This is often caused by a copy & pasting, but could also be caused by copying & 
 Coming back with fresh eyes, or someone else's, may bring clarity.
 ### This list is exhaustive.
 ????
+It's probably to use this list to remind & stimulate the subconcious than to go through everything as an explicit checklist???
