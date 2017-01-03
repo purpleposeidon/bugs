@@ -26,10 +26,13 @@ There may be a function called twice, where the first call is good, and the seco
 ### This function's name/argument/documentation/comments are not lies.
 ### The output is going someplace I could see it, but I don't, therefore there is no output.
 The output may be created correctly, but whatever is displaying it has a problem. Eg a draw function may be creating vertex data, but a bad matrix is putting it somewhere the camera can't see.
-### This object/method is mutable/constant
-You might be doing `constant_integer.add(23)` and ignoring the result.
+### Tests are testing what you think they are testing
+### The feature is actually implemented
 ### The repository is in an atomic change.
 You may have forgotten to discard a change.
+### This object/method is mutable/constant
+You might be doing `constant_integer.add(23)` and ignoring the result.
+### Floats are real
 ### An "xyz" is not "xyy" is not "xyx" is not "zyx".
 This is often caused by a copy & pasting, but could also be caused by copying & pasting in an axis-indexed constant array.
 ### You don't need to take a break.
