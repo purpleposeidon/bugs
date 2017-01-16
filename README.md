@@ -16,6 +16,9 @@ You might be ignoring a plausible candidate.
 ### You are reading all of the code.
 There may be a function call you didn't notice. The context may be scattered in different files. Some state might be modified by some distant code.
 
+### There is only one thing wrong.
+Plane accidents tend to be caused by multiple things going wrong at the same time.
+
 ### The thing you are debugging is the one you are editing.
 Your compiler might be outputting to `a.out.v2` but you are executing `a.out.v1`, or you might be editing a backup. You may be editing function l instead of similarly shaped function I. This can be recognized by frustration growing with increasingly drastic changes, and often naturally resolves itself by the programmer trying something flagrant that should break everything but does not.
 
