@@ -17,6 +17,8 @@ You might be ignoring a plausible candidate.
 There may be a function call you didn't notice. The context may be scattered in different files. Some state might be modified by some distant code.
 
 ### There is only one thing wrong.
+If a chain has two broken links, fixing one link does not fix the chain.
+
 Plane accidents tend to be caused by multiple things going wrong at the same time.
 
 ### The thing you are debugging is the one you are editing.
