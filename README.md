@@ -28,7 +28,7 @@ Plane accidents tend to be caused by multiple things going wrong at the same tim
 `cause₁ || cause₂ || cause₃ --> symptom`
 
 ### The thing you are debugging is the one you are editing.
-Your compiler might be outputting to `a.out` but you are executing `b.out`. Or you might be editing a backup. You may be editing function l instead of similarly shaped function I. This can be recognized by frustration growing with increasingly drastic changes, and often naturally resolves itself by the programmer trying something flagrant that should break everything but does not.
+Your compiler might be outputting to `a.out` but you are executing `b.out`. Or you might be editing a backup. Or the thing you're editing is being restored somehow. You may be editing function l instead of similarly shaped function I. This can be recognized by frustration growing with increasingly drastic changes, and often naturally resolves itself by the programmer trying something flagrant that should break everything but does not.
 
 ### You are actually changing the input.
 ### Your debugger is in the state leading to the error.
