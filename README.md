@@ -49,6 +49,8 @@ Floats are not ℝ.
 ### The bug is deterministic.
 ### An "xyz" is not "xyy" is not "xyx" is not "zyx".
 This is often caused by a copy & pasting, but could also be caused by copying & pasting in an axis-indexed constant array.
+### The thing that is happening twice is happening twice.
+Make sure only one copy of `tail -F` is writing logs to your terminal.
 ### The error message points at the thing that went wrong.
 ### You don't need to take a break.
 Coming back with fresh eyes, or someone else's, may bring clarity.
